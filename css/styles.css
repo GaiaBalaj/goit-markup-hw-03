@@ -1,0 +1,207 @@
+/* Main color #4D5AE5 */
+/* Secondary color #2E2F42*/
+/* White color #FFFFFF */
+/* Accent #E7E9FC*/
+/* Secondary background color #F4F4FD*/
+/* Subtle color #8E8F99 */
+/* Button color #404BBF; */
+/* Description color #8E8F99; */
+
+:root {
+    --primary-brand-color: #4D5AE5;
+    --tittle-text-color: #2E2F42;
+    --description-text-color: #434455;
+    --background-light-color: #F4F4FD;
+    --primary-white-color: #FFFFFF;
+    --accent-background-color: #E7E9FC;
+    --subtle-text-color: #8E8F99;
+    --button-text-color: #404BBF;
+}
+
+.body {
+    background-color: var(--primary-white-color);
+    color: var(--tittle-text-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.02em; 
+}
+
+.page-header {
+    background-color:var(--primary-white-color);
+}
+
+/* Logo */
+
+.nav-logo {
+    color:var(--primary-brand-color);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+}
+
+.accent {
+    color: var(--tittle-text-color);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+   
+}
+
+
+.accent-footer {
+    color: var(--background-light-color);
+}
+
+/* Features Studio */
+
+.subtitle {
+    color:var(--tittle-text-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+/* List */
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list-link {
+    color:var(--tittle-text-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.list-link:hover,
+.list-link:focus {
+    color:var(--primary-brand-color);
+}
+
+/* Contacts */
+
+.contacts-link {
+    color: var(--description-text-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--primary-brand-color);
+}
+
+/* Filter */
+.filter-button {
+    color: var(--primary-brand-color);
+    background-color:var(--accent-background-color);
+    font-family: "Roboto", sans-serif;
+    height: 48px;   
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;   
+    cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--primary-white-color);
+    background-color:var(--primary-brand-color);
+}
+
+/*  Studio Hero */
+.hero {
+    background-color: var(--tittle-text-color);
+
+}
+.hero-title {
+    color:var(--primary-white-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 56px;
+    line-height: 1.07;
+}
+
+.hero-button {
+    color:var(--primary-white-color);
+    background-color: var(--primary-brand-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 0.8;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color:var(--button-text-color);
+}
+/* About Team */
+.about {
+    background-color: var(--primary-white-color);
+}
+
+.team {
+    background-color: var(--background-light-color);
+}
+
+/* Studio title */
+.about-title {
+    color:var(--tittle-text-color);
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+
+/* Card-item */
+.team-card {
+    background-color:var(--primary-white-color);
+}
+
+.post-title {
+    color: var(--tittle-text-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.post-text {
+    color: var(--description-text-color);
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    
+}
+
+footer {
+    background-color:var(--tittle-text-color);
+    height: 310px;
+    width: 1440px;
+}
+
+.footer-text {
+    color: var(--accent-background-color);
+}
+
