@@ -131,7 +131,7 @@ margin-bottom: 0;
     align-items: center;
 }
 
-.header-list {
+.header-link {
     color:var(--tittle-text-color);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
