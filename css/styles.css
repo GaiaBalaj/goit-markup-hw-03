@@ -251,7 +251,6 @@ img {
     margin: 0 auto;
     margin-bottom: 48px;
     align-items: center;
-    
 }
 
 .hero-button {
@@ -302,7 +301,9 @@ img {
     margin-top: 0;
     margin-bottom: 72px;
 }
+
 .about-list {
+    background-color: var(--primary-white-color);
     justify-content: space-between;
     padding-left: 0;
 }
