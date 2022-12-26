@@ -47,6 +47,10 @@ margin:0;
 margin-bottom: 0;
 }
 
+img {
+    display: block;
+    width: 100%;
+}
 
 .header-page {
     background-color:var(--primary-white-color);
