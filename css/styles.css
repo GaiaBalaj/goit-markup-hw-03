@@ -125,6 +125,7 @@ margin-bottom: 0;
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
 .header-page {
     align-items: center;
 }
@@ -234,6 +235,7 @@ margin-bottom: 0;
     text-align: center;
     padding-top: 192px;
     padding-bottom: 291px;
+    align-items: center;
 
 }
 .hero-title {
